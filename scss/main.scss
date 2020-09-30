@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Quicksand:wght@400;600&display=swap");
+$primary-color: linear-gradient(to right, #485563, #5b6f86);
+$font-family1: "Quicksand", sans-serif;
+$secondary-color: #f6f5f5;
+$third-color: #40a8c4;
+$font-size1: 2.2rem;
+$font-size2: 1.125rem;
+$font-family2: "Lobster Two", cursive;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+
+body {
+  background: $primary-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5;
+  letter-spacing: 1.5;
+  font-weight: 600;
+  height: 100vh;
+}
+h1 {
+  font-family: $font-family2;
+  font-size: $font-size1;
+  text-align: center;
+}
+.container {
+  font-family: $font-family1;
+  font-size: $font-size2;
+  border: 2px solid #fff;
+  padding: 35px 50px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(grey, 1);
+  background: #a2d5f2;
+  form {
+    margin: 10px auto;
+    .filling {
+      margin: 5px auto;
+      input {
+        width: 250px;
+        height: 38px;
+        border: solid white;
+        border-radius: 5px;
+        margin: 5px 0 0 0;
+      }
+    }
+  }
+}
+input[type="submit"] {
+  margin: 18px 25% 0 25%;
+  padding: 10px 30px;
+  border: 0 solid white;
+  border-radius: 5px;
+  background-color: #40a8c4;
+  font-family: $font-family1;
+  font-weight: 600;
+  letter-spacing: 1.5;
+  font-size: $font-size2;
+  color: #fff;
+}
+
+@media (max-width: 625px) {
+  .container {
+    padding: 20px 30px;
+    font-size: 10px;
+  }
+}

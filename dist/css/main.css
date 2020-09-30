@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Quicksand:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, right top, from(#485563), to(#5b6f86));
+  background: linear-gradient(to right, #485563, #5b6f86);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 1.5;
+  letter-spacing: 1.5;
+  font-weight: 600;
+  height: 100vh;
+}
+
+h1 {
+  font-family: "Lobster Two", cursive;
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+.container {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.125rem;
+  border: 2px solid #fff;
+  padding: 35px 50px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 5px 10px gray;
+          box-shadow: 0 5px 10px gray;
+  background: #a2d5f2;
+}
+
+.container form {
+  margin: 10px auto;
+}
+
+.container form .filling {
+  margin: 5px auto;
+}
+
+.container form .filling input {
+  width: 250px;
+  height: 38px;
+  border: solid white;
+  border-radius: 5px;
+  margin: 5px 0 0 0;
+}
+
+input[type="submit"] {
+  margin: 18px 25% 0 25%;
+  padding: 10px 30px;
+  border: 0 solid white;
+  border-radius: 5px;
+  background-color: #40a8c4;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1.5;
+  font-size: 1.125rem;
+  color: #fff;
+}
+
+@media (max-width: 625px) {
+  .container {
+    padding: 20px 30px;
+    font-size: 10px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
